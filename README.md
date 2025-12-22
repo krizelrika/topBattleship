@@ -19,3 +19,12 @@ This implementation focuses on:
 - Work with ES6 modules
 - Build game logic without relying on the DOM
 - Prepare logic for future UI integration
+
+## 🧩 Core Modules
+### Ship
+Represents a ship in the game.
+Public API:
+- length
+- hit()
+- isSunk()
+Ships track how many times they’ve been hit and determine when they are sunk.
