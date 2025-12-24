@@ -23,8 +23,24 @@ This implementation focuses on:
 ## 🧩 Core Modules
 ### Ship
 Represents a ship in the game.
+
 Public API:
 - length
 - hit()
 - isSunk()
+
 Ships track how many times they’ve been hit and determine when they are sunk.
+
+### Gameboard
+Represents a 10×10 board that holds ships and tracks attacks.
+
+Responsibilities:
+- Place ships at coordinates
+- Receive attacks
+- Track missed attacks
+- Report whether all ships are sunk
+
+Public API:
+- placeShip(ship, coordinates)
+- receiveAttack(coordinates)
+- allShipsSunk()
