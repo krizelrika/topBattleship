@@ -44,3 +44,15 @@ Public API:
 - placeShip(ship, coordinates)
 - receiveAttack(coordinates)
 - allShipsSunk()
+
+### Player
+Represents either a human or computer player.
+
+Responsibilities:
+- Owns a Gameboard
+- Makes attacks
+- Computer player generates legal random moves
+
+Public API:
+- attack(enemyBoard, coordinates)
+- randomAttack(enemyBoard) (computer only)
