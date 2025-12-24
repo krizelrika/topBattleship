@@ -56,3 +56,12 @@ Responsibilities:
 Public API:
 - attack(enemyBoard, coordinates)
 - randomAttack(enemyBoard) (computer only)
+
+## 🕹️ Game Flow
+Game flow and turn logic are managed in a controller module, not inside individual classes.
+
+* Players are created
+* Gameboards are populated with ships
+* Players take turns attacking
+* Hits and misses are recorded
+* The game ends when all ships of one player are sunk
