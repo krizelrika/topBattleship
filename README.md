@@ -65,3 +65,15 @@ Game flow and turn logic are managed in a controller module, not inside individu
 * Players take turns attacking
 * Hits and misses are recorded
 * The game ends when all ships of one player are sunk
+
+## 🚀 Future Improvements
+- Multiplayer support
+- Mobile responsiveness
+- Save/load game state
+- Difficulty levels for AI
+
+## 📌 Notes
+- Only public methods are tested
+- Helper/internal functions are not directly tested
+- Tests validate behavior, not implementation details
+- Emphasis is placed on readability and maintainability
